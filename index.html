@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAPZemv0Lgj2C4M4kYAg3EFHCR1xHfsPuI",
+          authDomain: "abderrahmanefersaoui-89e2f.firebaseapp.com",
+          databaseURL: "https://abderrahmanefersaoui-89e2f-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "abderrahmanefersaoui-89e2f",
+          storageBucket: "abderrahmanefersaoui-89e2f.appspot.com",
+          messagingSenderId: "609164950921",
+          appId: "1:609164950921:web:3e20438e0441dc1b65f558",
+          measurementId: "G-S7N5YN8LYK"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+    <main>
+        <p>This is a simple website with a basic interface.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Simple Website</p>
+    </footer>
+</body>
+</html>
